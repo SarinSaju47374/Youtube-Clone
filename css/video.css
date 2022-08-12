@@ -5,6 +5,64 @@
     column-gap: 20px;
     row-gap:30px;
 }
+
+@media (max-width:1000px){
+    .video-section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:760px){
+    .video-section{
+        grid-template-columns: 1fr 1fr;
+    }
+    .middle-section{
+        display:none; 
+    }
+    .search-icon-sm{
+        visibility:visible;
+    }
+    .tooltip-container{
+        margin-right: 12px;
+    }
+    .sidebar{
+        display:none;
+    }
+    body{
+        padding-left:12px;
+    }
+}
+
+@media (max-width:600px){
+    .upload-icon,.youtube-apps-icon,.notifications-icon,.search-icon-sm{
+        width:18px;
+    }
+    .search-link-sm{
+        margin-left:25px;
+        margin-right:25px;
+        
+    }
+    .tooltip-container{
+        margin-right: 5px;
+    }
+
+    .video-section{
+        grid-template-columns: 1fr;
+    }
+    .hamburger-icon{
+        display:none;
+    }
+    .left-section{
+        justify-content:start;
+    }
+    .youtube-logo{
+        width:84px;
+    }
+    .my-channel-link{
+        margin-right: 12px;
+    }
+
+}
 .video-preview{
     font-family:"Roboto",Arial, Helvetica, sans-serif;
     font-weight: 700;

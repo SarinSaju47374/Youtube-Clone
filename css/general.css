@@ -3,7 +3,7 @@ body{
    padding:0px;
    padding-top:82px;
    padding-left:90px;
-
+   background-color:rgb(238, 238, 238) !important;
 }
 p{
     margin:0px;
